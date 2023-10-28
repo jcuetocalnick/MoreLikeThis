@@ -83,7 +83,7 @@ after user clicks on the cell/ button to see more movies/books/shows like this u
 
 
 Wireframes
-[Add picture of your hand sketched wireframes in this section] 
+![](![Wireframe_1](https://github.com/jcuetocalnick/MoreLikeThis/assets/100786631/290be233-24e8-43a5-8293-49503e227978))
 
 [BONUS] Digital Wireframes & Mockups
 [BONUS] Interactive Prototype
