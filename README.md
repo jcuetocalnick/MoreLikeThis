@@ -83,8 +83,7 @@ after user clicks on the cell/ button to see more movies/books/shows like this u
 
 
 Wireframes
-<img src="![Wireframe_1](https://github.com/jcuetocalnick/MoreLikeThis/assets/100786631/5f2763fa-0689-4d66-8ee8-8213182317e0)
-" width=600>
+![Wireframe_1](https://github.com/jcuetocalnick/MoreLikeThis/assets/100786631/de7ddb6e-dd30-40f5-9728-2446c3bf0236)
 
 [BONUS] Digital Wireframes & Mockups
 [BONUS] Interactive Prototype
