@@ -121,10 +121,11 @@ Networking
   </div>
 
 ### LoginScreen
-  <div>
-    <a href="https://www.loom.com/share/96f0061fd9bf4f4fb1750f25e2e5f098">
+ <div>
+    <a href="https://www.loom.com/share/cd05c6898828477a9089043a1b1f93b6">
     </a>
-    <a href="https://www.loom.com/share/96f0061fd9bf4f4fb1750f25e2e5f098">
-      <img style="max-width:300px;" src="null">
+    <a href="https://www.loom.com/share/cd05c6898828477a9089043a1b1f93b6">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/cd05c6898828477a9089043a1b1f93b6-with-play.gif">
     </a>
   </div>
+
