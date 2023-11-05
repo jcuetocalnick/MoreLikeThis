@@ -108,4 +108,14 @@ Networking
 [Create basic snippets for each Parse network request]
 [OPTIONAL: List endpoints if using existing API such as Yelp]
 
-##MILESTONE#8 VIDEO PROGRESS
+## MILESTONE#8 VIDEO PROGRESS
+
+### MoviesViewController
+
+<div>
+    <a href="https://www.loom.com/share/918135aa0edf461b88cfbcd7bfd65ccf">
+    </a>
+    <a href="https://www.loom.com/share/918135aa0edf461b88cfbcd7bfd65ccf">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/918135aa0edf461b88cfbcd7bfd65ccf-with-play.gif">
+    </a>
+  </div>
