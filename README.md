@@ -28,27 +28,30 @@ Original App Design Project - README Template
 
 **Required Must-have Stories**
 
-* [user can  scroll through a screen where a list of movies/books/shows are shown.]
-* [user can switch screen by tapping on the tab bar at the bottom of the screen.]
-* [user can click on movie/book/show to see more information about the specific.]
-* [user can click on specific movie/book/show view and can click on "More Like this" button where more like the selected will be displayed.]
-* [user will see a customized icon for the app.]
-* [user will be prompted to launch-screen as soon as app launches.]
+* [ ][user can  scroll through a screen where a list of movies/books/shows are shown.] [INPROGRESS]
+* [ ][user can switch screen by tapping on the tab bar at the bottom of the screen.]
+* [ ][user can click on movie/book/show to see more information about the specific.]
+* [ ][user can click on specific movie/book/show view and can click on "More Like this" button where more like the selected will be displayed.]
+* [x][user will see a customized icon for the app.]
+* [x][user will be prompted to launch-screen as soon as app launches.]
+* [x][user will have a login screen where they can sign up or login and its connected to back4app.]
 
 **Optional Nice-to-have Stories**
 
-* [user has a search bar at the top of the screen where they can search for specific movie/book/show without having to scroll.]
-* [user can favorite with a star icon their favorite book/movie/show.]
-* [user can receive notifications when favorited has acquire a new "more like this".]
+* [ ][user has a search bar at the top of the screen where they can search for specific movie/book/show without having to scroll.]
+* [ ][user can favorite with a star icon their favorite book/movie/show.]
+* [ ][user can receive notifications when favorited has acquire a new "more like this".]
 
 
 ### 2. Screen Archetypes
 
-- [ ] [LaunchScreen]
+- [x] [LaunchScreen]
 * [user will be prompted to launch-screen as soon as app launches.]
-- [ ] [MovieViewController]
+- [x] [LoginScreen]
+* [user will be prompted to a login screen / sign up screen.]
+- [ ] [MovieViewController] [INPROGRESS]
 * [user can  scroll through a screen where a list of movies/books/shows are shown.]
- - [ ] [BookViewController]
+ - [ ] [BookViewController] [INPROGRESS]
 * [user can  scroll through a screen where a list of movies/books/shows are shown.]
 - [ ] [ShowViewController]
 * [user can  scroll through a screen where a list of movies/books/shows are shown.]
