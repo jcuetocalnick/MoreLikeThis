@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import Nuke
 
-class BooksDetailController: UIViewController {
+class DetailViewController: UIViewController {
     
     @IBOutlet weak var coverImageView: UIImageView!
     
@@ -26,6 +26,7 @@ class BooksDetailController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
     
     var book: Book!
+    var movie: Movies!
     
     override func viewDidLoad() {
         super.viewDidLoad()
