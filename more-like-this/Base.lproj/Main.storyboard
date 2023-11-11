@@ -89,15 +89,6 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfp-ec-Kjs">
-                                <rect key="frame" x="163" y="775" width="65" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="TEST"/>
-                                <connections>
-                                    <segue destination="pak-ci-Pyk" kind="show" id="HD9-HI-lxa"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -222,7 +213,7 @@
         <!--Books View Controller-->
         <scene sceneID="dJ3-xS-jjV">
             <objects>
-                <viewController id="pak-ci-Pyk" userLabel="Books View Controller" customClass="BooksViewController" customModule="BookTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="pak-ci-Pyk" userLabel="Books View Controller" customClass="BooksViewController" customModule="moreLikeThis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AId-rQ-ZeF">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -231,7 +222,7 @@
                                 <rect key="frame" x="0.0" y="91" width="390" height="719"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookCell" rowHeight="138" id="xtY-xP-S8V" userLabel="BookCell" customClass="BookCell" customModule="BookTest" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookCell" rowHeight="138" id="xtY-xP-S8V" userLabel="BookCell" customClass="BookCell" customModule="moreLikeThis" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="390" height="138"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xtY-xP-S8V" id="QM6-Z3-e3v">
@@ -301,7 +292,7 @@
         <!--Book Detail Controller-->
         <scene sceneID="e4O-PY-2AO">
             <objects>
-                <viewController id="6Oa-hb-AMV" userLabel="Book Detail Controller" customClass="BooksDetailController" customModule="BookTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6Oa-hb-AMV" userLabel="Book Detail Controller" customClass="BooksDetailController" customModule="moreLikeThis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xyU-N2-26A">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -440,7 +431,7 @@
         <!--Navigation Controller-->
         <scene sceneID="cf1-wb-Lj2">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Grv-pb-Gqk" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="Grv-pb-Gqk" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="YZt-w2-Rzg">
                         <rect key="frame" x="0.0" y="47" width="390" height="44"/>
@@ -456,9 +447,6 @@
             <point key="canvasLocation" x="2533.8461538461538" y="-2.1327014218009479"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="I3F-bJ-6KM"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
