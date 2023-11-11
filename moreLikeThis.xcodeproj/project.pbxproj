@@ -12,6 +12,10 @@
 		2DE9EF452AFD220400D2440F /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE9EF442AFD220400D2440F /* BookCell.swift */; };
 		2DE9EF482AFD24D700D2440F /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 2DE9EF472AFD24D700D2440F /* Nuke */; };
 		2DE9EF4C2AFD420800D2440F /* BooksDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE9EF4B2AFD420800D2440F /* BooksDetailController.swift */; };
+		A1D473542AFFEA980047C7BF /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D473532AFFEA980047C7BF /* MoviesViewController.swift */; };
+		A1D473562AFFEAAB0047C7BF /* MoviesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D473552AFFEAAB0047C7BF /* MoviesCell.swift */; };
+		A1D473582AFFEAB90047C7BF /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D473572AFFEAB90047C7BF /* Movies.swift */; };
+		A1D4735A2AFFF5F40047C7BF /* MoviesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D473592AFFF5F40047C7BF /* MoviesDetailViewController.swift */; };
 		CB69974E2910F705007EDA6B /* Filmotype-Jade.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB69974C2910F704007EDA6B /* Filmotype-Jade.otf */; };
 		CB6997512911044D007EDA6B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6997502911044D007EDA6B /* SignUpViewController.swift */; };
 		CB73D395290E3B4A00C12538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB73D394290E3B4A00C12538 /* AppDelegate.swift */; };
@@ -31,6 +35,10 @@
 		2DE9EF422AFD21A800D2440F /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
 		2DE9EF442AFD220400D2440F /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 		2DE9EF4B2AFD420800D2440F /* BooksDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksDetailController.swift; sourceTree = "<group>"; };
+		A1D473532AFFEA980047C7BF /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		A1D473552AFFEAAB0047C7BF /* MoviesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCell.swift; sourceTree = "<group>"; };
+		A1D473572AFFEAB90047C7BF /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		A1D473592AFFF5F40047C7BF /* MoviesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailViewController.swift; sourceTree = "<group>"; };
 		CB69974C2910F704007EDA6B /* Filmotype-Jade.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Filmotype-Jade.otf"; sourceTree = "<group>"; };
 		CB6997502911044D007EDA6B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CB73D391290E3B4A00C12538 /* moreLikeThis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moreLikeThis.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,9 +72,18 @@
 			children = (
 				2DE9EF422AFD21A800D2440F /* BooksViewController.swift */,
 				2DE9EF442AFD220400D2440F /* BookCell.swift */,
-				2DE9EF4B2AFD420800D2440F /* BooksDetailController.swift */,
 			);
 			path = Books;
+			sourceTree = "<group>";
+		};
+		A1D473522AFFEA660047C7BF /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				A1D473532AFFEA980047C7BF /* MoviesViewController.swift */,
+				A1D473552AFFEAAB0047C7BF /* MoviesCell.swift */,
+				A1D473592AFFF5F40047C7BF /* MoviesDetailViewController.swift */,
+			);
+			path = Movies;
 			sourceTree = "<group>";
 		};
 		CB13E51B2913A0E7008F45BB /* Login */ = {
@@ -105,8 +122,10 @@
 		CB73D393290E3B4A00C12538 /* more-like-this */ = {
 			isa = PBXGroup;
 			children = (
+				A1D473522AFFEA660047C7BF /* Movies */,
 				2DE9EF412AFD218500D2440F /* Books */,
 				CB73D394290E3B4A00C12538 /* AppDelegate.swift */,
+				2DE9EF4B2AFD420800D2440F /* BooksDetailController.swift */,
 				CB73D396290E3B4A00C12538 /* SceneDelegate.swift */,
 				CB7896ED2935DB4100635932 /* Models */,
 				CB13E51B2913A0E7008F45BB /* Login */,
@@ -125,6 +144,7 @@
 				CB7896EE2935DC4E00635932 /* User.swift */,
 				CB7896F02936045A00635932 /* Post.swift */,
 				2DE9EF3F2AFD215200D2440F /* Book.swift */,
+				A1D473572AFFEAB90047C7BF /* Movies.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -211,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D4735A2AFFF5F40047C7BF /* MoviesDetailViewController.swift in Sources */,
+				A1D473542AFFEA980047C7BF /* MoviesViewController.swift in Sources */,
 				2DE9EF452AFD220400D2440F /* BookCell.swift in Sources */,
 				CB73D399290E3B4A00C12538 /* LoginViewController.swift in Sources */,
 				2DE9EF432AFD21A800D2440F /* BooksViewController.swift in Sources */,
@@ -220,6 +242,8 @@
 				CB7896EF2935DC4E00635932 /* User.swift in Sources */,
 				CB6997512911044D007EDA6B /* SignUpViewController.swift in Sources */,
 				CB73D397290E3B4A00C12538 /* SceneDelegate.swift in Sources */,
+				A1D473582AFFEAB90047C7BF /* Movies.swift in Sources */,
+				A1D473562AFFEAAB0047C7BF /* MoviesCell.swift in Sources */,
 				CB7896F12936045A00635932 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
