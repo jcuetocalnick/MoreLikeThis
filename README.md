@@ -141,6 +141,14 @@ Networking
 <div>
 
  ## MILESTONE#9 VIDEO PROGRESS
+ <div>
+    <a href="https://www.loom.com/share/4284006baff64fe2b46b5042dd8d60fc">
+    </a>
+    <a href="https://www.loom.com/share/4284006baff64fe2b46b5042dd8d60fc">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/4284006baff64fe2b46b5042dd8d60fc-with-play.gif">
+    </a>
+  </div>
+  
   <div>
     <a href="https://www.loom.com/share/fe0f48c19b0d420cb9dd1e9976c5f9ea">
     </a>
