@@ -25,7 +25,9 @@ class BooksDetailController: UIViewController {
     
     @IBOutlet weak var descriptionLabel: UILabel!
     
+    weak var delegate: BooksViewControllerDelegate?
     var book: Book!
+    var listNameEncoded: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,4 +39,19 @@ class BooksDetailController: UIViewController {
         wolLabel.text = String(book.weeks_on_list)
         descriptionLabel.text = book.description
     }
+    
+    @IBAction func moreLikeThisButtonTapped(_ sender: UIButton) {
+        if let listNameEncoded = listNameEncoded {
+            print("List Name Encoded for URL: \(listNameEncoded)")
+            
+                    delegate?.fetchBooksForListNameEncoded(listNameEncoded)
+                    // You will likely want to return to the BooksViewController at this point
+                    // If you are using a navigation controller:
+                    navigationController?.popViewController(animated: true)
+                    // If presented modally:
+                    // dismiss(animated: true, completion: nil)
+                }
+    }
+    
+    
 }
