@@ -314,7 +314,7 @@
         <!--Movies View Controller-->
         <scene sceneID="KkS-V3-FR7">
             <objects>
-                <viewController id="eDZ-x2-zot" userLabel="Movies View Controller" customClass="MoviesViewController" customModule="moreLikeThis" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MoviesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eDZ-x2-zot" userLabel="Movies View Controller" customClass="MoviesViewController" customModule="moreLikeThis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W2e-L5-gaT">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -415,27 +415,41 @@
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="764"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="5wV-mn-Cx4">
-                                            <rect key="frame" x="16" y="16" width="358" height="415"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="5wV-mn-Cx4">
+                                            <rect key="frame" x="16" y="16" width="358" height="341"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="azg-xE-tu7">
-                                                    <rect key="frame" x="8.6666666666666572" y="0.0" width="341" height="321.33333333333331"/>
+                                                    <rect key="frame" x="8.6666666666666572" y="0.0" width="341" height="192"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="321.32999999999998" id="6il-mD-EGJ"/>
+                                                        <constraint firstAttribute="height" constant="192" id="6il-mD-EGJ"/>
                                                         <constraint firstAttribute="width" constant="341" id="JGT-R7-pci"/>
                                                     </constraints>
                                                 </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4A-D1-odj">
+                                                    <rect key="frame" x="16" y="231" width="326" height="37.333333333333314"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="filled" title="MoreLikeThis">
+                                                        <fontDescription key="titleFontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                                                    </buttonConfiguration>
+                                                    <connections>
+                                                        <action selector="moreLikeThisTapped:" destination="Bmx-if-B4S" eventType="touchUpInside" id="Ldb-CR-NXY"/>
+                                                    </connections>
+                                                </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cA1-eX-Rwv">
-                                                    <rect key="frame" x="146" y="381.33333333333331" width="66.333333333333314" height="33.666666666666686"/>
+                                                    <rect key="frame" x="146" y="307.33333333333331" width="66.333333333333314" height="33.666666666666686"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="b4A-D1-odj" secondAttribute="trailing" constant="16" id="d2R-Wu-3An"/>
+                                                <constraint firstItem="b4A-D1-odj" firstAttribute="leading" secondItem="5wV-mn-Cx4" secondAttribute="leading" constant="16" id="lqC-5E-5M6"/>
+                                            </constraints>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="2iX-1i-nfV">
-                                            <rect key="frame" x="16" y="446.99999999999994" width="358" height="163.33333333333331"/>
+                                            <rect key="frame" x="16" y="373" width="358" height="163.33333333333337"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="NaJ-PR-xAp">
                                                     <rect key="frame" x="0.0" y="0.0" width="358" height="56.666666666666664"/>
@@ -498,7 +512,7 @@
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </stackView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hy-Ov-hQb">
-                                                    <rect key="frame" x="0.0" y="106.66666666666664" width="358" height="56.666666666666671"/>
+                                                    <rect key="frame" x="0.0" y="106.6666666666667" width="358" height="56.666666666666671"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -828,7 +842,7 @@
         <!--Book Detail Controller-->
         <scene sceneID="fl5-iQ-eIb">
             <objects>
-                <viewController id="1Ue-5M-h8e" userLabel="Book Detail Controller" customClass="BooksDetailController" customModule="BookTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1Ue-5M-h8e" userLabel="Book Detail Controller" customClass="BooksDetailController" customModule="moreLikeThis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QaV-Vs-lJm">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -921,10 +935,11 @@
                                             <rect key="frame" x="16" y="409.66666666666669" width="358" height="39.666666666666686"/>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="filled" title="MoreLikeThis">
-                                                <fontDescription key="titleFontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="22"/>
+                                                <fontDescription key="titleFontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
                                             </buttonConfiguration>
                                             <connections>
                                                 <action selector="moreLikeThisButtonTapped:" destination="1Ue-5M-h8e" eventType="touchUpInside" id="aos-rZ-7QV"/>
+                                                <action selector="moreLikeThisTapped:" destination="vCS-l0-2Ur" eventType="touchUpInside" id="oQ9-vP-zqv"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -977,6 +992,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WBT-bF-Msl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="vCS-l0-2Ur" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="5684.6153846153848" y="897.86729857819898"/>
         </scene>
