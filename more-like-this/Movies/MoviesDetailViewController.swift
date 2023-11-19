@@ -32,9 +32,7 @@ class MoviesDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        // Load the image located at the `artworkUrl100` URL and set it on the image view.
-        //Nuke.loadImage(with: movies.backdrop_path, into: moviePicture)
+        
         if let image = movies.backdropImageURL{
             Nuke.loadImage(with: image, into: moviePicture)
         }

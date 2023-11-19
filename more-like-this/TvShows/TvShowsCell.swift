@@ -2,7 +2,7 @@
 //  TvShowsCell.swift
 //  moreLikeThis
 //
-//  Created by Jane Calnick on 11/12/23.
+//  Created by Janet Cueto Calnick on 11/12/23.
 //
 
 import Foundation

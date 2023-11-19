@@ -1,8 +1,8 @@
 //
 //  SignUpViewController.swift
-//  lab-insta-parse
+// moreLikeThis
 //
-//  Created by Charlie Hieger on 11/1/22.
+//  Created by Janet Cueto Calnick on 11/1/22.
 //
 
 import UIKit

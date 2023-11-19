@@ -1,8 +1,8 @@
 //
 //  User.swift
-//  lab-insta-parse
+// moreLikeThis
 //
-//  Created by Charlie Hieger on 11/28/22.
+//  Created by Janet Cueto Calnick on 11/28/22.
 //
 
 import Foundation

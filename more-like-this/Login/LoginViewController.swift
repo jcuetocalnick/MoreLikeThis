@@ -1,8 +1,8 @@
 //
 //  LoginViewController.swift
-//  lab-insta-parse
+//  moreLikeThis
 //
-//  Created by Charlie Hieger on 10/29/22.
+//  Created by Janet Cueto Calnick on 10/29/22.
 //
 
 import UIKit
