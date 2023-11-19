@@ -160,16 +160,16 @@ Networking
   <div>
     <a href="https://www.loom.com/share/092ece2827b445ca9eff0d081388e918">
     </a>
+    <a href="https://www.loom.com/share/092ece2827b445ca9eff0d081388e918">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/092ece2827b445ca9eff0d081388e918-with-play.gif">
+    </a>
+  </div>
 
-   ## FINA PROJECT DEMO
+## FINA PROJECT DEMO
    <div>
     <a href="https://www.loom.com/share/b1a87ac9c6964910ba61d64252d1c7a1">
     </a>
     <a href="https://www.loom.com/share/b1a87ac9c6964910ba61d64252d1c7a1">
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/b1a87ac9c6964910ba61d64252d1c7a1-with-play.gif">
-    </a>
-  </div>
-    <a href="https://www.loom.com/share/092ece2827b445ca9eff0d081388e918">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/092ece2827b445ca9eff0d081388e918-with-play.gif">
     </a>
   </div>
