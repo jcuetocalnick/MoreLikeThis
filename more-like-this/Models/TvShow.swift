@@ -13,21 +13,16 @@ struct TvShowResponse : Decodable{
 struct TvShow: Decodable {
     var name: String
     var overview: String
-//    let backdrop_path: String
-    let poster_path: String
+    var id: Int
+    let poster_path: String?
     let vote_average: Float
     let vote_count: Int
     let popularity: Double
     
-//    var backdropImageURL: URL?{
-//        let baseURL = "https://image.tmdb.org/t/p/original"
-//        //"https://image.tmdb.org/t/p/w500"
-//        return URL(string: baseURL + backdrop_path)
-//    }
-    
     var posterImageURL: URL?{
+        guard let path = poster_path else { return nil }
         let baseURL = "https://image.tmdb.org/t/p/w500"
         //"https://image.tmdb.org/t/p/w500"
-        return URL(string: baseURL + poster_path)
+        return URL(string: baseURL + path)
     }
 }
